@@ -1,0 +1,50 @@
+@import '../../assets/scss/variables/colors.scss';
+@import '../../assets/scss/variables/font.scss';
+
+.video-link {
+    flex-shrink: 0;
+    text-decoration: none;
+    color: $theme-dark;
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        border-radius: 14px;
+        display: inline-block;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        padding: 0 5px;
+        font-family: $font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: $theme-dark;
+        opacity: 0.4;
+    }
+
+    h3 {
+        margin: 0;
+        padding: 0;
+        padding: 0 5px;
+        color: $theme-dark;
+        font-family: $font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: capitalize;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
